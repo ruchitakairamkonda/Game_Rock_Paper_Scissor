@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgb(28, 2, 36);
+    color: bisque;
+    padding: 25px;
+    font-size: 40px;
+    
+}
+.chioce{
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.chioce:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.chioces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 7px;
+}
+
+p{
+    text-align: center;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 90px;
+    gap: 7rem;
+}
+/* #userScore, #computerScore{
+    font-size: 10rem;
+} */
+#userScore, 
+#computerScore{
+    font-size: 6rem;
+}
+.msgContainer{
+    margin-top: 5rem;
+    /* align-items: center; */
+}
+#msg{
+    font-size: 2rem;
+    background-color: rgb(75, 7, 138);
+    color: aliceblue;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
